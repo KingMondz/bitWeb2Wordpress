@@ -1,0 +1,133 @@
+/*******************************/
+/* UNIVERSAL RESETS
+/*******************************/
+
+/* Custom properties */
+:root {
+    --default-font-size: 1.8rem;
+  }
+  
+  /* Reset margins, paddings and box-sizing to best defaults */
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  body {
+    box-sizing: border-box;
+  }
+  
+  /* 
+  * 1. Set the rem (root em) unit for relative sizing
+  * rem values are equal to the computed value of 'font-size' on the root element
+  * The 'html' element is the document's root element
+  * (user style default)16px * 62.5% = 10px
+  * Set 1 rem unit to 10px for easier multiplication for various sizes 
+  * Correct the line height in all browsers.
+  * 3. Prevent adjustments of font size after orientation changes in iOS.
+  */
+  
+  html {
+    font-size: 62.5%; /* 1 === 10px */
+    -webkit-text-size-adjust: 100%; /* 3 */
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--default-font-size);
+    font-weight: 400;
+    line-height: 1;
+    /* color: $color-grey-dark; */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /**
+   * set sensible form input defaults
+   *
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /*******************************/
+  /* DESIGN SYSTEM
+  /*******************************/
+  /* 
+  ## 01 TYPOGRAPHY SYSTEM
+  
+  ### Font sizes (px)
+  > 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+  
+  ### Font weights
+  
+  > Default: 400
+  > Medium: 500
+  > Semi-bold: 600
+  > Bold: 700
+  
+  ### Line heights:
+  
+  > Default: 1
+  > Small: 1.05
+  > Medium: 1.2
+  > Paragraph default: 1.6
+  > Large: 1.8
+  
+  ### Letter spacing
+  
+  > 0.5px;
+  > 0.75px;
+  
+  ## 02 COLORS
+  
+  ### Primary:
+  
+  > #e67e22;
+  
+  ### Tints:  
+  
+  > #fdf2e9;
+  > #fae5d3
+  > #eb984e
+  
+  ### Shades: 
+  
+  > #cf711f,
+  > #45260a;
+   
+  ### Accents:
+  ### Greys: 
+  
+  > #888
+  > #767676 (lightest grey allowed on #fff)
+  > #6F6F6F (lightest gray allowed on #fdf2e9)
+  > #555 - font color
+  > #333
+  
+  ## 05 SHADOWS
+  
+  > box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  
+  ## 06 BORDER RADIUS
+  
+  > Default: border-radius: 9px;
+  
+  ## 07 WHITESPACE
+  
+  ### Spacing System (px)
+  > 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+  
+  */
