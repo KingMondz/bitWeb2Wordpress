@@ -24,7 +24,8 @@ header{
 header h1{
     color: white;
     border: 8px solid white;
-    padding: 6px 12px;/*first value is for top and bottom while 2nd valu is left and right*/
+    /*first value is for top and bottom while 2nd valu is left and right*/
+    padding: 6px 12px;
     display: inline-block;
     border-radius: 36px;
 }
