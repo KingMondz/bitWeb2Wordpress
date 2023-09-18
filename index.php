@@ -94,5 +94,5 @@
 </html>
 
 <?php 
-    require "section2.php";
+    require "sec2.php";
 ?>

@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/sec2.css">
 </head>
 <body>
-    <header>
+    <!-- <header>
         <h1>Mario Club</h1>
-    </header>
+    </header> -->
     <div class="s2cont">
     <div class="s2">
     <br>
