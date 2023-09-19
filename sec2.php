@@ -35,3 +35,6 @@
     </div>
 </body>
 </html>
+<?php 
+    require "sec3.php";
+?>
