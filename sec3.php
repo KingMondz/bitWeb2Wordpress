@@ -29,7 +29,7 @@
             <div class="shortDesc2">
                 <p>It starts by choosing the right IT partner who will take the time to understand your business process and make sure the final products and services provided match both your present and future needs. Choose Bitlink </p>
             </div>
-            <div class="painPoints"> 
+            <div class="fa-ul painPoints">
             <!-- pain-points abbreviated as pp -->
                 <ul>
                     <li>for solutions that just work</li>
@@ -48,6 +48,7 @@
                 </a>
                 <a href="#">
                     <div class="watchBtn">
+                        <i class="fa play-circle-o"></i>
                         <p>watch video</p>
                     </div>
                 </a>
