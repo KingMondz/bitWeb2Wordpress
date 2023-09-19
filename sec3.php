@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bitlink</title>
-</head>
-<body>
+<div class="secWhy">   
     <div class="why">
-        <div class="2cards1">
+        <div class="cards1">
             <div class="card1">
 
             </div>
@@ -15,7 +8,7 @@
 
             </div>
         </div>
-        <div class="2cards2">
+        <div class="cards2">
             <div class="card3">
 
             </div>
@@ -38,10 +31,12 @@
             </div>
             <div class="painPoints"> 
             <!-- pain-points abbreviated as pp -->
-                <div class="pp1"></div>
-                <div class="pp2"></div>
-                <div class="pp3"></div>
-                <div class="pp4"></div>
+                <ul>
+                    <li>for solutions that just work</li>
+                    <li>no hidden cost</li>
+                    <li>no hassle</li>
+                    <li>no compromise</li>
+                </ul>
             </div>
             <div class="whyActions">
                 <a href="#">
@@ -57,5 +52,4 @@
             </div>
         </div>
     </div>
-</body>
-</html>
+</div> 
