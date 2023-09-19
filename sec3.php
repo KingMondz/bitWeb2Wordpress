@@ -34,6 +34,8 @@
                 <ul>
                     <li>for solutions that just work</li>
                     <li>no hidden cost</li>
+                </ul>
+                <ul>
                     <li>no hassle</li>
                     <li>no compromise</li>
                 </ul>
