@@ -74,12 +74,18 @@
 .painPoints ul{
     color: #FFF;
     position: relative;
-    content: "\f058";
-    margin-right: 30px;
+    margin-right: 40px;
+    list-style-type: none;
 }
-li::marker{
+.painPoints i{
     color: #FFD500;
-    font-size: larger;
+    font-size: 100%;
+    /* content: "\f058"; */
+ }
+.whyActions{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
  }
 .learnBtn button{
     font-size: 16px;
@@ -94,4 +100,22 @@ li::marker{
     text-align: center;
     border-style: solid;
     padding: 20px 48px;
+}
+.watchBtn{
+    color: #DEB900;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    display: inline-block;
+    padding: 10px 20px;
+    height: 100%;
+    text-align: center;
+    border: 3px solid #DEB900 ;
+}
+.watchBtn i{
+    font-size: 170%;
+    display: inline-block;
+}.watchBtn p{
+    display: inline-block;
+    color: #FFF;
 }

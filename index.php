@@ -50,7 +50,7 @@
     <link rel="stylesheet" href="css/section2.css" />
 
     <!-- Main JavaScript file -->
-    <script defer src="js/main.js"></script>
+    <script defer src="js/main.js"></script>    
   </head>
 
   <body>

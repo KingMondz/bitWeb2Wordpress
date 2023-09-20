@@ -32,12 +32,12 @@
             <div class="fa-ul painPoints">
             <!-- pain-points abbreviated as pp -->
                 <ul>
-                    <li>for solutions that just work</li>
-                    <li>no hidden cost</li>
+                    <li><i class="fa fa-check-circle" aria-hidden="true"></i> for solutions that just work</li>
+                    <li><i class="fa fa-check-circle" aria-hidden="true"></i> no hidden cost</li>
                 </ul>
                 <ul>
-                    <li>no hassle</li>
-                    <li>no compromise</li>
+                    <li><i class="fa fa-check-circle" aria-hidden="true"></i> no hassle</li>
+                    <li><i class="fa fa-check-circle" aria-hidden="true"></i> no compromise</li>
                 </ul>
             </div>
             <div class="whyActions">
@@ -48,7 +48,7 @@
                 </a>
                 <a href="#">
                     <div class="watchBtn">
-                        <i class="fa play-circle-o"></i>
+                        <i class="fa fa-play-circle-o" aria-hidden="true"></i>               
                         <p>watch video</p>
                     </div>
                 </a>
