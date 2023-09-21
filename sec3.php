@@ -56,7 +56,7 @@
                 </a>
                 <a href="#" class="watchBtn">
                     <div>
-                        <i class="fa fa-play-circle-o" aria-hidden="true"></i>watch video
+                        <i class="fa fa-play-circle-o" aria-hidden="true"></i>  watch video
                     </div>
                 </a>
             </div>
