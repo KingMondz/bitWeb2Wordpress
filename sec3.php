@@ -1,4 +1,4 @@
-<div class="secWhy">   
+<div class="secWhy s3">   
     <div class="why">
         <div class="cards1">
             <div class="card1 crd">
