@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +8,10 @@
     <link rel="stylesheet" href="css/sec2.css">
     <link rel="stylesheet" href="css/sec3.css">
 </head>
-<body>
     <!-- <header>
         <h1>Mario Club</h1>
     </header> -->
-    <div class="s2cont">
+    <section class="s2cont">
     <div class="s2">
     <br>
     <h2>Welcome to bitlink</h2>
@@ -35,9 +33,7 @@
         
         <p>We help organisations realise the benefits of ICT and Power solutions that just work—no hassle, no hidden costs, and no compromise.</p>
     </div>
-    </div>
-</body>
-</html>
+</section>
 <?php 
     require "sec3.php";
 ?>
