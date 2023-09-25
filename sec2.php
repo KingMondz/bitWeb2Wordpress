@@ -12,7 +12,7 @@
         <h1>Mario Club</h1>
     </header> -->
     <section class="s2cont">
-    <div class="s2">
+    <div class="s2 s21">
     <br>
     <h2>Welcome to bitlink</h2>
         <h1>Hello!</h1>
@@ -25,7 +25,7 @@
     <div class="s2img">
         <img class="img" src="img/Bitlink-Staff-Working.jpg" alt="Bitlink-Employee-Working" >
     </div>
-    <div class="s2">
+    <div class="s2 s22">
     <br><br>
         <P><strong> that would call the shots.</strong> Giving the customer exactly what they were promised, and exactly what they needed, was the top priority.
         

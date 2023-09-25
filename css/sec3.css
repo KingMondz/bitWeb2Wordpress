@@ -123,6 +123,7 @@
 }
 .painPoints ul{
     color: #FFF;
+    display: flexbox;
     position: relative;
     margin-right: 40px;
     list-style-type: none;

@@ -1,11 +1,12 @@
-body{
+body {
     max-width: 100%;
     width: 100%;
     margin: 0;
     box-sizing: border-box;
     background-color: whitesmoke;
 }
-header{
+
+header {
     background-color: #f63232;
     padding: 0;
     padding-top: 20px;
@@ -20,7 +21,8 @@ header{
     left: 0;
     margin-bottom: 5px;
 }
-header h1{
+
+header h1 {
     color: white;
     border: 8px solid white;
     /*first value is for top and bottom while 2nd valu is left and right*/
@@ -28,11 +30,12 @@ header h1{
     display: inline-block;
     border-radius: 36px;
 }
-.s2cont{
-    position:relative;
+
+.s2cont {
+    position: relative;
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 100% ;
+    grid-template-rows: 100%;
     grid-gap: 2rem;
     justify-content: center;
     align-content: center;
@@ -41,14 +44,16 @@ header h1{
     height: 100vh;
     max-width: 100%;
     width: 1300px;
-    margin:auto;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 5px;
 }
-.s2{
+
+.s2 {
     box-sizing: border-box;
 }
-.s2 h2{
+
+.s2 h2 {
     color: #787878;
     font-size: 14px;
     font-weight: 500;
@@ -57,7 +62,8 @@ header h1{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
-.s2 h1{
+
+.s2 h1 {
     color: #6ec1e4;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 75px;
@@ -66,38 +72,64 @@ header h1{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.s2 p{
+
+.s2 p {
     color: #333333;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     font-size: 20px;
-    -webkit-font-smoothing:antialiased;
+    -webkit-font-smoothing: antialiased;
     line-height: 1.25em;
     margin: none;
     margin-top: var(--marginPtopNbottom);
     margin-bottom: var(--marginPtopNbottom);
 }
-.s2img{
+
+.s2img {
     box-sizing: border-box;
 }
-.img{
+
+.img {
     max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.s2cont::after{
+
+.s2cont::after {
     content: "";
     display: table;
     clear: both;
 }
+
 @media screen and (max-width: 1300px) {
-    
+    .s2cont {
+        grid-template-areas:
+        ;
+    }
 }
+
 @media screen and (max-width: 1200px) {
-    
+    .s2cont {
+        display: grid;
+        grid-template-areas:
+        's21 s2img s22';
+    }
 }
+
+@media screen and (max-width: 1050px) {
+    .s2cont {
+        display: grid;
+        grid-template-areas:
+        's21 s2img'
+        's22 s22';
+    }
+}
+
 @media screen and (max-width: 820px) {
-    
+    .s2cont {
+        grid-template-areas:
+        ;
+    }
 }
