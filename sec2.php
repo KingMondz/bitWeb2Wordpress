@@ -5,6 +5,7 @@
     <title>Document</title>
     <!-- <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css"> -->
     <script src="https://kit.fontawesome.com/73a62eeb6a.js" crossorigin="anonymous"></script>
+    <!-- plese note that the fontawesome kit used in line 7(above) is directly linked to my accont for development purposes -->
     <link rel="stylesheet" href="css/sec2.css">
     <link rel="stylesheet" href="css/sec3.css">
 </head>
